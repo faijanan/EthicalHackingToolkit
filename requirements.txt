@@ -1,0 +1,4 @@
+whois
+paramiko
+scapy
+requests
