@@ -3,8 +3,10 @@ import os
 def banner():
     print("""
 ╔══════════════════════════════════╗
-║   Ethical Hacking Toolkit (Py)  ║
+║   Ethical Hacking Toolkit (Py)   ║
 ╚══════════════════════════════════╝
+     ->  faijan h4cker  <-
+
 1. Whois Lookup
 2. Port Scanner
 3. Subdomain Scanner
@@ -12,7 +14,9 @@ def banner():
 5. FTP Brute Force
 6. Packet Sniffer
 7. Generate Payload
+8. A Gift For You
 0. Exit
+
 """)
 
 def main():
@@ -33,6 +37,8 @@ def main():
             os.system("python3 sniffing/packet_sniffer.py")
         elif choice == '7':
             os.system("python3 payloads/payload_generator.py")
+        elif choice == '8':
+            os.system("python3 gift/gift.py")    
         elif choice == '0':
             break
         else:
